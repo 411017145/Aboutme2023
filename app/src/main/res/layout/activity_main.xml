@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="這是高二我 比現在瘦很多!"
+        android:textSize="10sp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/photo"
+        android:contentDescription="這是高二的我 明顯地比現在瘦很多"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="點我!"
+        android:textSize="30sp"
+        android:onClick="Add"
+        />
+
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你好，我叫做陳怡嘉 就讀靜宜大學資管"
+        android:textSize="20sp"
+        />
+
+
+    />
+</LinearLayout>
+
